@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="./Assets/css/main.css">
+    <link rel="stylesheet" href="./Assets/css/responsive.css">
+    <title>Contact | Gait Analysis</title>
+</head>
+<body>
+    <header class="navigator">
+        <div class="container">
+            <img src="./Assets/images/Develop & Deliver Logo.png" class="logo">
+            <a href="../Home-page.html" class="logo">Develop&Deliver</a>
+            <nav>
+                <a href="./Home-page.html">HOME</a>
+                <a href="./System-overview.html">SYSTEM OVERVIEW</a>
+                <a href="./Contact.html">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="header">
+        <div class="container">
+            <h1>Get in Touch & Request a Demo</h1>
+            <p class="subtitle">We're here to answer your questions and demonstrate the power of our Gait Analysis System.</p>
+        </div>
+    </section>
+
+    <section class="contact-content section-padding">
+        <div class="container">
+            <div class="contact-grid">
+
+                <div class="contact-form-wrapper">
+                    <h2 id="contact-form">Your Path to Precision Starts Here</h2>
+                    <p class="form-intro">Fill out the form below, and a member of our team will get back to you promptly to schedule a personalized demonstration or answer your queries.</p>
+
+                    <form id="demo-request-form" class="demo-form">
+                        <div class="form-group">
+                            <label for="name">Your Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required placeholder="ex.Liam Connor">
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="organization">Organization</label>
+                            <input type="text" id="organization" name="organization" placeholder="ex.Clinic/Univerity/Company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="role">Your Role</label>
+                            <input type="text" id="role" name="role" placeholder="ex.Physiotherapist/Research/Manager">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="text" id="email" name="email" required placeholder="ex.liamconnor@gmail.com">
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interest">I am interested in... <span class="required">*</span></label>
+                            <select name="interest" id="interest" required>
+                                <option value="">-- Please Select --</option>
+                                <option value="demo">Request a Live Demo</option>
+                                <option value="pricing">Pricing Information</option>
+                                <option value="Support">Technical Support</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                            <div class="error-message" id="interest-error"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea name="message" id="message" rows="5" placeholder="Tell us more about your needs..."></textarea>
+                        </div>
+
+                        <div class="form-action">
+                            <button type="submit" class="button button--primary">Submit Request</button>
+                        </div>
+
+                        <p class="privacy-note">By submitting this form, you agree to our <a href="https://balancedgait.com/en/privacy-policy/" style="color: blue;">Privacy Policy</a>.</p>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h2>Direct Contact Information</h2>
+                    <p>Prefer to reach out directly? We're here to help.</p>
+
+                    <div class="info-block">
+                        <h3>Address</h3>
+                        <p>8M7C+C4P, Panabo, Davao del Norte, Philippines</p>
+                    </div>
+
+                    <div class="contact-block">
+                        <h3>Email</h3>
+                        <p><a href="cinco.reynniel@dnsc.edu.ph">cinco.reynniel@dnsc.edu.ph</a></p>
+                    </div>
+
+                    <div class="contact-block">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+63 993 756 4717">+63 993 756 4717</a></p>
+                    </div>
+
+                    <div class="contact-block">
+                        <h3>Operating Hours</h3>
+                        <p>Monday - Friday: 9:00AM - 5:00PM (GTM)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>&copy; 2025 Gait Analysis. All ights reserved.
+                <br> <b>This website is for school purposes only.</b>
+            </p>
+        </div>
+    </footer>
+
+    <script src="./Assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="./Assets/css/main.css">
+    <link rel="stylesheet" href="./Assets/css/responsive.css">
+    <title>System Overview | Gait Analysis</title>
+</head>
+<body>
+    <header class="navigator">
+        <div class="container">
+            <img src="./Assets/images/Develop & Deliver Logo.png" class="logo">
+            <a href="../Home-page.html" class="logo">Develop&Deliver</a>
+            <nav>
+                <a href="./Home-page.html">HOME</a>
+                <a href="./System-overview.html">SYSTEM OVERVIEW</a>
+                <a href="./Contact.html">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="header">
+        <div class="container">
+            <h1>Precision Engineering: Inside the Gait Analysis System</h1>
+            <p class="subtitle">A detailed look at the cutting-edge hardware and software that delivers clinical-grade accuracy.</p>
+        </div>
+    </section>
+
+    <section id="downgrid" class="downgrid section-padding">
+        <div class="container">
+            <h2>Detailed Technical Breakdown</h2>
+
+            <div class="tech-grid">
+
+                <div class="tech-item">
+                    <h3 class="tech-item__title">Sensor Technology</h3>
+                    <p>The system utilizes Inertial Measurements Units(IMUs) with integrated 9-axis motion tracking (accelerometer,
+                        gyroscope, and magnetometer) paired with high-resolution. Force Sensing Resistors (FSRs) for plantar pressure
+                        mapping.</p>
+                </div>
+                
+                <div class="tech-item">
+                    <h3 class="tech-item__title">Acquisition Rate</h3>
+                    <p>Data streams are synchronized and captured at a high-speed sampling rate of 200 Hz, ensuring no micro-movement or
+                        rapid transient force is missed, providing unmatched smoothness and detail.</p>
+                </div>
+
+                <div class="tech-item data-paameter">
+                    <h3 class="tech-item__title">Key Data Parameters</h3>
+                    <ul>
+                        <li><span class="parameter-label">Spatial:</span>Stride/Step Length, Step Width, Foot Angle</li>
+                        <li><span class="parameter-label">Temporal:</span>Stance/Swing Time, Cadence, Double Support Time</li>
+                        <li><span class="parameter-label">Kinetics:</span>Pressure Maps, Peak Force, Force-Time Integral</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <h2>Highlight Features</h2>
+
+            <div class="tech-grid">
+
+                <div class="tech-item">
+                    <h3 class="tech-item__title">Daily Report</h3>
+                    <p>Use this dashboard to review your key metrics and data captured over the last 24 hours. This ensures you can track
+                        your progress, identify trends, and make informed adjustments to your daily goals or workflow.</p>
+                </div>
+
+                <div class="tech-item">
+                    <h3 class="tech-item__title">Coach Booking</h3>
+                    <p>Secure your one-on-one session with a certified gait coach or therapist. Use this form to select an available date
+                        and time, ensuring your specialist is ready for your assessment.</p>
+                </div>
+                
+                <div class="tech-item">
+                    <h3 class="tech-item__title">Doctors Near You</h3>
+                    <p>Use this form to schedule an appointment with a specialized Gait Doctor at your desired time. This ensures the
+                        medical expert is available to perform your full gait assessment and discuss your clinical results.</p>
+                </div>
+
+                <div class="tech-item">
+                    <h3 class="tech-item__title">Personalized Plan</h3>
+                    <p>Use this section to access your individualized treatment schedule and exercise regimen. This plan, tailored
+                        specifically to your clinical results and goals by your medical expert, ensures you follow the optimal path to
+                        recovery and long-term wellness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="data-mockup section-padding">
+        <div class="container">
+            <h2>Visualizing Movement: Interactive Data Output</h2>
+            <div class="mockup-display">
+                <div class="visual-window">
+                    <div class="chart-label">Live Pressure Map Analysis</div>
+                    <img src="./Assets/images/pressure map.png" alt="Mock-up of system data output showing graphs and pressure maps." class="responsive-photo">
+                </div>
+                <p class="mockup-caption">Explore an example of the system's intuitive software interface, providing clinicians with clear, comparative data and actionable insights into gait asymmetry and loading patterns.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="specs" class="specs section-padding">
+        <div class="container">
+            <h2>Hardware Specifications</h2>
+            <table class="specs-table">
+                <thead>
+                    <tr>
+                        <th>Component</th>
+                        <th>Specification</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sensor Units</td>
+                        <td>8 Wireless IMU Modules + 2 FSR Insoles</td>
+                        <td>IP67 Reted (Sweat/Splash Resistant)</td>
+                    </tr>
+                    <tr>
+                        <td>Connectivity</td>
+                        <td>Bluetooth LE 5.0</td>
+                        <td>Ideal available for research integration</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>&copy; 2025 Gait Analysis. All ights reserved.
+                <br> <b>This website is for school purposes only.</b>
+            </p>
+        </div>
+    </footer>
+
+    <script src="./Assets/js/main.js"></script>
+</body>
+</html>
